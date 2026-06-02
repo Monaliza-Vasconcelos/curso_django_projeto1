@@ -8,3 +8,9 @@ def home(request):
         'nome':'Monaliza',
     }
                   )
+
+def recipe(request, id):
+    return render(request, 'recipes/pages/home.html', status=200, context={
+        'nome':'Monaliza',
+    }
+                  )
